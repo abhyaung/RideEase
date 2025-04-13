@@ -180,3 +180,51 @@ const CarPool = () => {
 };
 
 export default CarPool;
+
+src/models/Ride_details.js
+
+// import mongoose from 'mongoose';
+
+// const rideSchema = new mongoose.Schema({
+//   startLocation: {
+//     type: {
+//       lat: Number,
+//       lng: Number,
+//     },
+//     required: true,
+//   },
+//   endLocation: {
+//     type: {
+//       lat: Number,
+//       lng: Number,
+//     },
+//     required: true,
+//   },
+//   seatsAvailable: {
+//     type: Number,
+//     required: true,
+//     min: 1,
+//     max: 5,
+//   },
+//   driverId: {
+//     type: mongoose.Schema.Types.ObjectId,
+//     ref: 'User',
+//     required: true,
+//   },
+//   passengers: [{
+//     type: mongoose.Schema.Types.ObjectId,
+//     ref: 'User'
+//   }],
+//   createdAt: {
+//     type: Date,
+//     default: Date.now,
+//   },
+//   status: {
+//     type: String,
+//     enum: ['active', 'completed', 'cancelled'],
+//     default: 'active',
+//   },
+// });
+
+// const Ride = mongoose.model('Ride', rideSchema);
+// export default Ride;
