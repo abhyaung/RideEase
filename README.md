@@ -34,7 +34,7 @@ RideEase is a modern, community-driven carpooling and ride-sharing web applicati
 ---
 
 ## 📁 Project Structure
-
+```bash
 rideease-frontend/
 │
 ├── public/
@@ -61,7 +61,7 @@ rideease-backend/
 │ │ └── connection.js
 │ └── server.js
 └── .env
-
+```
 ---
 
 ## 🛠️ Technologies Used
